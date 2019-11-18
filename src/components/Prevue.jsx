@@ -10,8 +10,9 @@ const Prevue = ({text}) => {
         document.getElementById('preview').innerHTML = marked(text)
     })
     return(
-        <div id='preview' className={styles.mark}>
-            
+        <div className={styles.mark}>
+            <div className={styles.text}>Prevue</div>
+            <div id='preview' className={styles.prevue}></div>
         </div>
     )
 }
