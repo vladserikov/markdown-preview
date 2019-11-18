@@ -1,0 +1,10 @@
+.mark{
+    min-height: 300px;
+    width: 70vw;
+    border: 2px solid #0e0b0b;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 5px black;
+    padding: 5px;
+}
